@@ -42,13 +42,7 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
 
-
-const headP = document.querySelector("h1");
-headP.textContent = "Dom is Awesome"
-
-
-const button = document.querySelector("button");
-button.textContent = "Get Started"
+/* NAVBAR */ 
 
 const services = document.createElement("a");
 services.textContent = "Services";
@@ -74,17 +68,33 @@ const contact = document.createElement("a");
 contact.textContent = "Contact";
 document.querySelector("nav").appendChild(contact)
 
+
+/* HeadContent */
+const headP = document.querySelector("h1");
+headP.textContent = "Dom is Awesome"
+
+const button = document.querySelector("button");
+button.textContent = "Get Started"
+
 const headImg = document.getElementById("cta-img");
 headImg.setAttribute("src", "/img/header-img.png");
 
+/* MidSection */
 const topCont = document.getElementsByClassName("top-content");
 
+const featured = document.querySelector(".top-content:nth-of-type");
+
+/* MidDividingIMGTOP */
 
 const midImg = document.getElementById("middle-img");
 midImg.setAttribute("src", "/img/mid-page-accent.jpg");
 
+/* MidDividingIMGBOTTOM */
 
 
+/* ContactInfo */
 
-const footCopy = document.getElementsByTagName("footer");
+
+/* CopyWrightInfo */
+const footCopy = document.getElementsByClassName("contact");
 footCopy.textContent("Copywright Great Idea! 2018")
