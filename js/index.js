@@ -38,5 +38,53 @@ const siteContent = {
 };
 
 // Example: Update the img src for the logo
+
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+
+
+const headP = document.querySelector("h1");
+headP.textContent = "Dom is Awesome"
+
+
+const button = document.querySelector("button");
+button.textContent = "Get Started"
+
+const services = document.createElement("a");
+services.textContent = "Services";
+document.querySelector("nav").appendChild(services);
+
+const product = document.createElement("a");
+product.textContent = "Product";
+document.querySelector("nav").appendChild(product)
+
+const vision = document.createElement("a");
+vision.textContent = "Vision";
+document.querySelector("nav").appendChild(vision)
+
+const features = document.createElement("a");
+features.textContent = "Features";
+document.querySelector("nav").appendChild(features)
+
+const about = document.createElement("a");
+about.textContent = "About";
+document.querySelector("nav").appendChild(about)
+
+const contact = document.createElement("a");
+contact.textContent = "Contact";
+document.querySelector("nav").appendChild(contact)
+
+const headImg = document.getElementById("cta-img");
+headImg.setAttribute("src", "/img/header-img.png");
+
+const topCont = document.getElementsByClassName("top-content");
+
+
+const midImg = document.getElementById("middle-img");
+midImg.setAttribute("src", "/img/mid-page-accent.jpg");
+
+
+
+
+const footCopy = document.getElementsByTagName("footer");
+footCopy.textContent("Copywright Great Idea! 2018")
