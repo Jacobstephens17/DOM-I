@@ -79,22 +79,48 @@ button.textContent = "Get Started"
 const headImg = document.getElementById("cta-img");
 headImg.setAttribute("src", "/img/header-img.png");
 
-/* MidSection */
-const topCont = document.getElementsByClassName("top-content");
 
-const featured = document.querySelector(".top-content:nth-of-type");
+
+/* MidSection */
+
+const allContent = document.querySelectorAll(".text-content");
+
+allContent[0].querySelector('h4').textContent = 'Features';
+allContent[0].querySelector('p').textContent = "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
+allContent[1].querySelector('h4').textContent = "About";
+allContent[1].querySelector('p').textContent = "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
 
 /* MidDividingIMGTOP */
 
-const midImg = document.getElementById("middle-img");
+let midImg = document.getElementById("middle-img");
 midImg.setAttribute("src", "/img/mid-page-accent.jpg");
 
 /* MidDividingIMGBOTTOM */
+
+allContent[2].querySelector('h4').textContent = "Services"
+allContent[2].querySelector('p').textContent = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
+allContent[3].querySelector('h4').textContent = "Products"
+allContent[3].querySelector('p').textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
+allContent[4].querySelector('h4').textContent = "Vision"
+allContent[4].querySelector('p').textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
 
 
 /* ContactInfo */
 
 
 /* CopyWrightInfo */
-const footCopy = document.getElementsByClassName("contact");
-footCopy.textContent("Copywright Great Idea! 2018")
+
+
+
+
+
+
+
+
+
+
