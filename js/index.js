@@ -120,9 +120,8 @@ allContent[4].querySelector('p').textContent = siteContent['main-content']['visi
 
 /* ContactInfo */
 const contactContent = document.querySelectorAll(".contact");
-contactContent[0].querySelector('h4').textContent = siteContent["contact"]["contact-h4"];
-contactContent[0].querySelectorAll('p').innerText = siteContent["contact"]["address"] <br> ["contact"]["phone"] <br> ["contact"]["email"]; 
-
+contactContent[0].querySelector('h4').textContent = siteContent['contact']['contact-h4'];
+contactContent[0].querySelector('p').textContent = siteContent['contact']['address'] + siteContent['contact']['phone'] + siteContent['contact']['email'];
 /* CopyWrightInfo */
 
 
