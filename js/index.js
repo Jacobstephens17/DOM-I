@@ -93,11 +93,11 @@ headImg.setAttribute("src", "/img/header-img.png");
 
 const allContent = document.querySelectorAll(".text-content");
 
-allContent[0].querySelector('h4').textContent = 'Features';
-allContent[0].querySelector('p').textContent = "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+allContent[0].querySelector('h4').textContent = siteContent['main-content']['features-h4'];
+allContent[0].querySelector('p').textContent = siteContent['main-content']['features-content'];
 
-allContent[1].querySelector('h4').textContent = "About";
-allContent[1].querySelector('p').textContent = "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+allContent[1].querySelector('h4').textContent = siteContent['main-content']['about-h4'];
+allContent[1].querySelector('p').textContent = siteContent['main-content']['about-content']
 
 
 /* MidDividingIMGTOP */
@@ -107,22 +107,22 @@ midImg.setAttribute("src", "/img/mid-page-accent.jpg");
 
 /* MidDividingIMGBOTTOM */
 
-allContent[2].querySelector('h4').textContent = "Services"
-allContent[2].querySelector('p').textContent = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+allContent[2].querySelector('h4').textContent = siteContent['main-content']['services-h4']
+allContent[2].querySelector('p').textContent = siteContent['main-content']['services-content']
 
-allContent[3].querySelector('h4').textContent = "Products"
-allContent[3].querySelector('p').textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+allContent[3].querySelector('h4').textContent = siteContent['main-content']['product-h4']
+allContent[3].querySelector('p').textContent = siteContent['main-content']['product-content']
 
-allContent[4].querySelector('h4').textContent = "Vision"
-allContent[4].querySelector('p').textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+allContent[4].querySelector('h4').textContent = siteContent['main-content']['vision-h4']
+allContent[4].querySelector('p').textContent = siteContent['main-content']['vision-content']
 
 
 
 /* ContactInfo */
 const contactContent = document.querySelectorAll(".contact");
-contactContent[0].querySelector('h4').textContent = "Contact";
-contactContent[0].querySelector('p').textContent = "123 Way 456 Street Somewhere USA "; 
-contactContent
+contactContent[0].querySelector('h4').textContent = siteContent["contact"]["contact-h4"];
+contactContent[0].querySelectorAll('p').innerText = siteContent["contact"]["address"] <br> ["contact"]["phone"] <br> ["contact"]["email"]; 
+
 /* CopyWrightInfo */
 
 
