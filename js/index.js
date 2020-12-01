@@ -111,12 +111,15 @@ allContent[4].querySelector('p').textContent = "Vision content elementum magna e
 
 
 /* ContactInfo */
-
+const contactContent = document.querySelectorAll(".contact");
+contactContent[0].querySelector('h4').textContent = "Contact";
+contactContent[0].querySelector('p').textContent = "123 Way 456 Street";
 
 /* CopyWrightInfo */
 
 
-
+const copyright = document.getElementsByTagName("footer");
+copyright[0].querySelector("p").textContent = "Copyright Great Idea! 2018"
 
 
 

@@ -26,14 +26,14 @@ You have been provided a [JSON object](js/index.js) with all the necessary data 
 
 #### Create selectors to point your data into elements
 
-* [ ] Create selectors by using any of the DOM element's methods
-* [ ] Note that IDs have been used on all images. Use the IDs to update src path content
+* [1] Create selectors by using any of the DOM element's methods
+* [1] Note that IDs have been used on all images. Use the IDs to update src path content
 
 #### Update the HTML with the JSON data
 
-* [ ] Remember, NO direct updating of the HTML source is allowed.
-* [ ] Using your selectors, update the content to match the example file.
-* [ ] Remember to update the src attributes on images
+* [1] Remember, NO direct updating of the HTML source is allowed.
+* [1] Using your selectors, update the content to match the example file.
+* [1] Remember to update the src attributes on images
 
 #### Add new content
 
