@@ -46,27 +46,35 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 
 const services = document.createElement("a");
 services.textContent = "Services";
-document.querySelector("nav").appendChild(services);
+document.querySelector("nav").appendChild(services).style.color = "Green";
 
 const product = document.createElement("a");
 product.textContent = "Product";
-document.querySelector("nav").appendChild(product)
+document.querySelector("nav").appendChild(product).style.color = "Green";
 
 const vision = document.createElement("a");
 vision.textContent = "Vision";
-document.querySelector("nav").appendChild(vision)
+document.querySelector("nav").appendChild(vision).style.color = "Green";
 
 const features = document.createElement("a");
 features.textContent = "Features";
-document.querySelector("nav").appendChild(features)
+document.querySelector("nav").appendChild(features).style.color = "Green";
 
 const about = document.createElement("a");
 about.textContent = "About";
-document.querySelector("nav").appendChild(about)
+document.querySelector("nav").appendChild(about).style.color = "Green";
 
 const contact = document.createElement("a");
 contact.textContent = "Contact";
-document.querySelector("nav").appendChild(contact)
+document.querySelector("nav").appendChild(contact).style.color = "Green";
+
+const links = document.createElement("a");
+links.textContent = "Links";
+document.querySelector("nav").appendChild(links).style.color = "Green";
+
+const joinUs = document.createElement("a");
+joinUs.textContent = "Join Us!";
+document.querySelector("nav").appendChild(joinUs).style.color = "Green";
 
 
 /* HeadContent */
@@ -113,8 +121,8 @@ allContent[4].querySelector('p').textContent = "Vision content elementum magna e
 /* ContactInfo */
 const contactContent = document.querySelectorAll(".contact");
 contactContent[0].querySelector('h4').textContent = "Contact";
-contactContent[0].querySelector('p').textContent = "123 Way 456 Street";
-
+contactContent[0].querySelector('p').textContent = "123 Way 456 Street Somewhere USA "; 
+contactContent
 /* CopyWrightInfo */
 
 
