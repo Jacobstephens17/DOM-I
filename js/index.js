@@ -38,5 +38,92 @@ const siteContent = {
 };
 
 // Example: Update the img src for the logo
+
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+
+/* NAVBAR */ 
+
+const services = document.createElement("a");
+services.textContent = "Services";
+document.querySelector("nav").appendChild(services);
+
+const product = document.createElement("a");
+product.textContent = "Product";
+document.querySelector("nav").appendChild(product)
+
+const vision = document.createElement("a");
+vision.textContent = "Vision";
+document.querySelector("nav").appendChild(vision)
+
+const features = document.createElement("a");
+features.textContent = "Features";
+document.querySelector("nav").appendChild(features)
+
+const about = document.createElement("a");
+about.textContent = "About";
+document.querySelector("nav").appendChild(about)
+
+const contact = document.createElement("a");
+contact.textContent = "Contact";
+document.querySelector("nav").appendChild(contact)
+
+
+/* HeadContent */
+const headP = document.querySelector("h1");
+headP.textContent = "Dom is Awesome"
+
+const button = document.querySelector("button");
+button.textContent = "Get Started"
+
+const headImg = document.getElementById("cta-img");
+headImg.setAttribute("src", "/img/header-img.png");
+
+
+
+/* MidSection */
+
+const allContent = document.querySelectorAll(".text-content");
+
+allContent[0].querySelector('h4').textContent = 'Features';
+allContent[0].querySelector('p').textContent = "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
+allContent[1].querySelector('h4').textContent = "About";
+allContent[1].querySelector('p').textContent = "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
+
+/* MidDividingIMGTOP */
+
+let midImg = document.getElementById("middle-img");
+midImg.setAttribute("src", "/img/mid-page-accent.jpg");
+
+/* MidDividingIMGBOTTOM */
+
+allContent[2].querySelector('h4').textContent = "Services"
+allContent[2].querySelector('p').textContent = "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
+allContent[3].querySelector('h4').textContent = "Products"
+allContent[3].querySelector('p').textContent = "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
+allContent[4].querySelector('h4').textContent = "Vision"
+allContent[4].querySelector('p').textContent = "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis."
+
+
+
+/* ContactInfo */
+const contactContent = document.querySelectorAll(".contact");
+contactContent[0].querySelector('h4').textContent = "Contact";
+contactContent[0].querySelector('p').textContent = "123 Way 456 Street";
+
+/* CopyWrightInfo */
+
+
+const copyright = document.getElementsByTagName("footer");
+copyright[0].querySelector("p").textContent = "Copyright Great Idea! 2018"
+
+
+
+
+
+
+
